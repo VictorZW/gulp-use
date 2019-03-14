@@ -2,6 +2,10 @@
 
 进入到根目录
 
+//删除文件夹下的所有 .git 文件
+
+find . -name ".git" | xargs rm -Rf
+
 ```
 npm install
 ```
